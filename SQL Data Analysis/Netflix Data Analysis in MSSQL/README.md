@@ -1,0 +1,2 @@
+# Netflix Shows and Movies - Data Analysis in SQL SERVER
+In this project, I focused on performing data cleaning tasks on a Netflix-related SQL database. The goal was to ensure data consistency and completeness in the Titles and Credits tables, which store information about movies and series, as well as the individuals credited in them. The process involved identifying missing data, handling null values, and verifying data types to ensure compatibility across different data sources.
