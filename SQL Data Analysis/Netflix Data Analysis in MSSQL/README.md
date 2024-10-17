@@ -8,6 +8,11 @@ By combining data cleaning and analysis, this project showcases how structured S
 ##About the dataset:
 I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 entries for actors and directors, and New_credits, which has 5806 entries for movies and episodes.
 
+### About the dataset:
+
+I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 entries for actors and directors, and New_credits, which has 5806 entries for movies and episodes.
+
+
 ### Data Dictionary:
 ### **Table Structure: Netflix Titles Data**
 
@@ -35,5 +40,25 @@ I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 en
 | `name`          | `string`      | NON NULLABLE     | The name of the actor or actress                                   |
 | `character`     | `string`      | NULLABLE         | The character the actor or actress played in the movie or TV show   |
 | `role`          | `string`      | NON NULLABLE     | The role the actor or actress played in the movie or TV show        |
+
+
+### Technologies Used:
+-	Database: Microsoft SQL Server (MSSQL)
+-	SQL Concepts: Aggregate functions, window functions (RANK), GROUP BY, CROSS APPLY, and JOIN.
+
+### Potential Business Questions
+The SQL queries were designed to answer important business questions, such as:
+-	How many movies and TV shows are available on Netflix?
+-	What are the most common audience ratings for Netflix content?
+-	Which years saw the highest number of releases?
+-	How has the distribution of content (movies and TV shows) changed over time? For example, how many movies and TV shows were released in each decade?
+-	What are the most common genres of movies and TV shows on Netflix?
+-	Which country produces the most movies and TV shows on Netflix?
+-	What is the average duration of movies and TV shows on Netflix?
+-	What are the top-rated movies on Netflix?
+-	What are the most popular ratings on Netflix?
+-	Which were the top years in terms of the number of titles released?
+-	Which actor/director has most films/series in Netflix?
+-	What are the percentage relative frequency for genre?
 
 
