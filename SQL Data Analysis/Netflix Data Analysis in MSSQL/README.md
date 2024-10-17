@@ -7,7 +7,8 @@ The primary goal of this project is to use SQL Server to clean and analyze Netfl
 By combining data cleaning and analysis, this project showcases how structured SQL processes can improve data quality and generate actionable insights to drive data-driven decisions for media platforms like Netflix.
 ##About the dataset:
 I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 entries for actors and directors, and New_credits, which has 5806 entries for movies and episodes.
-###Data Dictionary:
+
+##Data Dictionary:
 
 |Column name	| Datatype | Type | Description |
 |---|----|----| --- |
