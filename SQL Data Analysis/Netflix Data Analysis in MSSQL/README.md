@@ -8,11 +8,11 @@ By combining data cleaning and analysis, this project showcases how structured S
 ##About the dataset:
 I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 entries for actors and directors, and New_credits, which has 5806 entries for movies and episodes.
 
-##Data Dictionary:
+### Data Dictionary:
+### Netflix_Titles
 
 |Column name	| Datatype | Type | Description |
 |---|----|----| --- |
-|index |integer |	NON NULLABLE |	index of the rows |
 |id |	string |	NON NULLABLE |	unique id for each entry |
 |title |	string |	NON NULLABLE |	The title of the movie or TV show |
 |type	| string |	NON NULLABLE |	The type of the movie or TV show |
@@ -22,3 +22,16 @@ I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 en
 |genres |	string |	NULLABLE |	The genres of the movie or TV show |
 |production_countries |	string |	NULLABLE |	The production countries of the movie or TV show |
 |seasons | integer |	NULLABLE |	The number of seasons of the TV show |
+|imdb_score|float|	NON NULLABLE|	The IMDB score of the movie or TV show|
+|imdb_votes	|integer|	NON NULLABLE|	The number of IMDB votes of the movie or TV show|
+
+### **Table Structure: Netflix Credits Data**
+
+| **Column Name** | **Data Type** | **Type**         | **Description**                                                    |
+|-----------------|---------------|------------------|--------------------------------------------------------------------|
+| `index`         | `integer`     | NON NULLABLE     | Index of the rows                                                  |
+| `person_id`     | `integer`     | NON NULLABLE     | Unique ID for each entry                                           |
+| `id`            | `integer`     | NON NULLABLE     | ID of the movie/show                                               |
+| `name`          | `string`      | NON NULLABLE     | The name of the actor or actress                                   |
+| `character`     | `string`      | NULLABLE         | The character the actor or actress played in the movie or TV show   |
+| `role`          | `string`      | NON NULLABLE     | The role the actor or actress played in the movie or TV show        |
