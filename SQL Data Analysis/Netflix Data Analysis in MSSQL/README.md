@@ -9,8 +9,8 @@ By combining data cleaning and analysis, this project showcases how structured S
 I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 entries for actors and directors, and New_credits, which has 5806 entries for movies and episodes.
 ###Data Dictionary:
 
-|Column name	| Datatype	Type | Description
---------------------------------------------------------------
+|Column name	| Datatype	Type | Description |
+------------------------------------------------
 |index |integer |	NON NULLABLE |	index of the rows |
 |id |	string |	NON NULLABLE |	unique id for each entry |
 |title |	string |	NON NULLABLE |	The title of the movie or TV show |
