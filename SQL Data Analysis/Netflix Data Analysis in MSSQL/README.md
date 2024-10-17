@@ -9,21 +9,21 @@ By combining data cleaning and analysis, this project showcases how structured S
 I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 entries for actors and directors, and New_credits, which has 5806 entries for movies and episodes.
 
 ### Data Dictionary:
-### Netflix_Titles
+### **Table Structure: Netflix Titles Data**
 
-|Column name	| Datatype | Type | Description |
-|---|----|----| --- |
-|id |	string |	NON NULLABLE |	unique id for each entry |
-|title |	string |	NON NULLABLE |	The title of the movie or TV show |
-|type	| string |	NON NULLABLE |	The type of the movie or TV show |
-|release_year |	integer |	NON NULLABLE |	The year the movie or TV show was released |
-|age_certification |string |	NULLABLE |	The age certification of the movie or TV show |
-|runtime |integer |	NON NULLABLE |	The runtime of the movie or TV show |
-|genres |	string |	NULLABLE |	The genres of the movie or TV show |
-|production_countries |	string |	NULLABLE |	The production countries of the movie or TV show |
-|seasons | integer |	NULLABLE |	The number of seasons of the TV show |
-|imdb_score|float|	NON NULLABLE|	The IMDB score of the movie or TV show|
-|imdb_votes	|integer|	NON NULLABLE|	The number of IMDB votes of the movie or TV show|
+| **Column Name**          | **Data Type** | **Type**         | **Description**                                                    |
+|--------------------------|---------------|------------------|--------------------------------------------------------------------|
+| `id`                     | `string`      | NON NULLABLE     | Unique ID for each entry                                           |
+| `title`                  | `string`      | NON NULLABLE     | The title of the movie or TV show                                  |
+| `type`                   | `string`      | NON NULLABLE     | The type of the content (Movie or TV Show)                         |
+| `release_year`           | `integer`     | NON NULLABLE     | The year the movie or TV show was released                         |
+| `age_certification`       | `string`      | NULLABLE         | The age certification of the movie or TV show                      |
+| `runtime`                | `integer`     | NON NULLABLE     | The runtime of the movie or TV show                                |
+| `genres`                 | `string`      | NULLABLE         | The genres of the movie or TV show                                 |
+| `production_countries`    | `string`      | NULLABLE         | The production countries of the movie or TV show                   |
+| `seasons`                | `integer`     | NULLABLE         | The number of seasons of the TV show                               |
+| `imdb_score`             | `float`       | NON NULLABLE     | The IMDb score of the movie or TV show                             |
+| `imdb_votes`             | `integer`     | NON NULLABLE     | The number of IMDb votes for the movie or TV show                  |
 
 ### **Table Structure: Netflix Credits Data**
 
@@ -35,3 +35,5 @@ I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 en
 | `name`          | `string`      | NON NULLABLE     | The name of the actor or actress                                   |
 | `character`     | `string`      | NULLABLE         | The character the actor or actress played in the movie or TV show   |
 | `role`          | `string`      | NON NULLABLE     | The role the actor or actress played in the movie or TV show        |
+
+
