@@ -10,7 +10,7 @@ I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 en
 ###Data Dictionary:
 
 |Column name	| Datatype	Type | Description |
-------------------------------------------------
+|---|----|----|
 |index |integer |	NON NULLABLE |	index of the rows |
 |id |	string |	NON NULLABLE |	unique id for each entry |
 |title |	string |	NON NULLABLE |	The title of the movie or TV show |
