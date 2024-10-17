@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/77424511-358f-4e95-910d-c2c85215e0b6)# Netflix Shows and Movies - Data Analysis in SQL SERVER
+# Netflix Shows and Movies - Data Analysis in SQL SERVER
 ## Overview
 
 The primary goal of this project is to use SQL Server to clean and analyze Netflix's content data. The project's main goals are to: (1) ensure data quality through cleaning techniques; and (2) extract useful about the type of content available on Netflix, content distribution trends over time, and popular ratings among users and many more. The following important Netflix tables were analyzed using data from [Kaggle:](https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv)
@@ -8,8 +8,9 @@ By combining data cleaning and analysis, this project showcases how structured S
 ##About the dataset:
 I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 entries for actors and directors, and New_credits, which has 5806 entries for movies and episodes.
 ###Data Dictionary:
+--------------------------------------------------------------
 |Column name	| Datatype	Type | Description
------------------------------------------------------
+--------------------------------------------------------------
 |index |integer |	NON NULLABLE |	index of the rows |
 |id |	string |	NON NULLABLE |	unique id for each entry |
 |title |	string |	NON NULLABLE |	The title of the movie or TV show |
@@ -20,4 +21,3 @@ I'll be using two raw files for my analysis: Netflix_titles, which has 77,214 en
 |genres |	string |	NULLABLE |	The genres of the movie or TV show |
 |production_countries |	string |	NULLABLE |	The production countries of the movie or TV show |
 |seasons | integer |	NULLABLE |	The number of seasons of the TV show |
-![image](https://github.com/user-attachments/assets/05b570a6-b81f-42c5-98d2-e87fc3c173f5)
