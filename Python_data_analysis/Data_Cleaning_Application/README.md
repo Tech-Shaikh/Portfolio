@@ -4,20 +4,20 @@ This Python script performs basic data cleaning operations such as removing dupl
 
 ## Key Features
 - File Format Support:
-  -- Handles CSV, Excel (.xlsx), and Excel (.xls) file formats.
-  -- Automatically detects the file format based on the provided file extension.
+  - Handles CSV, Excel (.xlsx), and Excel (.xls) file formats.
+  - Automatically detects the file format based on the provided file extension.
 - Duplicate Handling:
-  -- Identifies and reports duplicate records in the dataset.
-  -- Saves duplicate records to a separate file (*_duplicate.csv).
-  -- Removes duplicate rows from the dataset.
+  - Identifies and reports duplicate records in the dataset.
+  - Saves duplicate records to a separate file (*_duplicate.csv).
+  - Removes duplicate rows from the dataset.
 - Missing Value Handling:
- -- Numerical columns: Users can choose between filling missing values with mean, median, mode, or dropping rows entirely.
- -- Categorical columns: Users can choose between dropping rows with missing values or filling with the mode (most frequent value).
+  - Numerical columns: Users can choose between filling missing values with mean, median, mode, or dropping rows entirely.
+ - Categorical columns: Users can choose between dropping rows with missing values or filling with the mode (most frequent value).
 - Cleaned Data Export:
  -- Exports cleaned data to a new CSV file (*_cleaned_data.csv).
 - Error Handling:
- -- Checks for valid file paths and formats.
- -- Catches and reports errors when loading invalid or corrupted files.
+  - Checks for valid file paths and formats.
+ - Catches and reports errors when loading invalid or corrupted files.
 
 ## Usage Flow:
 - The user is prompted to enter the file path and file name.
