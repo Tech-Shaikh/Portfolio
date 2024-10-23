@@ -12,12 +12,12 @@ This Python script performs basic data cleaning operations such as removing dupl
   - Removes duplicate rows from the dataset.
 - Missing Value Handling:
   - Numerical columns: Users can choose between filling missing values with mean, median, mode, or dropping rows entirely.
- - Categorical columns: Users can choose between dropping rows with missing values or filling with the mode (most frequent value).
+  - Categorical columns: Users can choose between dropping rows with missing values or filling with the mode (most frequent value).
 - Cleaned Data Export:
- -- Exports cleaned data to a new CSV file (*_cleaned_data.csv).
+   - Exports cleaned data to a new CSV file (*_cleaned_data.csv).
 - Error Handling:
   - Checks for valid file paths and formats.
- - Catches and reports errors when loading invalid or corrupted files.
+  - Catches and reports errors when loading invalid or corrupted files.
 
 ## Usage Flow:
 - The user is prompted to enter the file path and file name.
